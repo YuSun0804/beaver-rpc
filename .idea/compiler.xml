@@ -21,7 +21,6 @@
       <module name="client-example" target="16" />
       <module name="client-exmaple" target="1.8" />
       <module name="common" target="16" />
-      <module name="example" target="1.8" />
       <module name="example-client" target="16" />
       <module name="example-server" target="16" />
       <module name="invoker" target="16" />
