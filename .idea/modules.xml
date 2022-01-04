@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rpc-example/api-example/api-example.iml" filepath="$PROJECT_DIR$/rpc-example/api-example/api-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beaver-rpc.iml" filepath="$PROJECT_DIR$/beaver-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-example/client-exmaple/client-exmaple.iml" filepath="$PROJECT_DIR$/rpc-example/client-exmaple/client-exmaple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-example/example.iml" filepath="$PROJECT_DIR$/rpc-example/example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-client/rpc-client.iml" filepath="$PROJECT_DIR$/rpc-client/rpc-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-common/rpc-common.iml" filepath="$PROJECT_DIR$/rpc-common/rpc-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-core/rpc-core.iml" filepath="$PROJECT_DIR$/rpc-core/rpc-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-example/server-example/server-example.iml" filepath="$PROJECT_DIR$/rpc-example/server-example/server-example.iml" />
+    </modules>
+  </component>
+</project>

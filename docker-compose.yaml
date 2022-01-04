@@ -1,0 +1,32 @@
+version: '3'
+services:
+  zookeeper:
+    restart: always
+    image: zookeeper:3.5.8
+    container_name: zk
+    ports:
+      - 2181:2181
+  server:
+    restart: always
+    build: ./docker/java
+    container_name: app
+    ports:
+      - 8080:8080
+    depends_on:
+      - zookeeper
+    entrypoint: "java -jar server.jar"
+    environment:
+      - ES_HOST=elasticsearch
+      - ES_PORT=9200
+  client:
+    restart: always
+    build: ./docker/java
+    container_name: app
+    ports:
+      - 8080:8080
+    depends_on:
+      - zookeeper
+    entrypoint: "java -jar server.jar"
+    environment:
+      - ES_HOST=elasticsearch
+      - ES_PORT=9200

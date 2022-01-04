@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="client-exmaple" />
+        <module name="rpc-common" />
+        <module name="api-example" />
+        <module name="server-example" />
+        <module name="rpc-core" />
+        <module name="rpc-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-example" target="1.8" />
+      <module name="beaver-rpc" target="1.8" />
+      <module name="client-example" target="16" />
+      <module name="client-exmaple" target="1.8" />
+      <module name="common" target="16" />
+      <module name="example" target="1.8" />
+      <module name="example-client" target="16" />
+      <module name="example-server" target="16" />
+      <module name="invoker" target="16" />
+      <module name="provider" target="16" />
+      <module name="rpc-client" target="1.8" />
+      <module name="rpc-common" target="1.8" />
+      <module name="rpc-core" target="1.8" />
+      <module name="rpc-example" target="1.8" />
+      <module name="server-example" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,1 @@
+zk=com.beaver.rpc.core.registry.impl.ZkServiceRegistryImpl

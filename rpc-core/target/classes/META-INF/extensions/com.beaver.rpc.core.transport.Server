@@ -1,0 +1,1 @@
+netty=com.beaver.rpc.core.transport.impl.netty.server.NettyServer

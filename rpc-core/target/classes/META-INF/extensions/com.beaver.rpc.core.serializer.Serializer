@@ -1,0 +1,1 @@
+protostuff=com.beaver.rpc.core.serializer.impl.ProtostuffSerializer

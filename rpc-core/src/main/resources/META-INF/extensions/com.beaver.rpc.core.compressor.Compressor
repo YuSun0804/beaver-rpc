@@ -1,0 +1,1 @@
+gzip=com.beaver.rpc.core.compressor.impl.GzipCompressor

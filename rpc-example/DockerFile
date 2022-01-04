@@ -1,0 +1,3 @@
+FROM adoptopenjdk/openjdk8
+COPY ./example/server-example/target server.jar
+COPY ./example/client-example/target client.jar
